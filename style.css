@@ -10,15 +10,38 @@ body {
 }
 
 h1 {
-    display: block;
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    width: 450px;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 32px 0 32px 0;
 }
 
 p {
     font-size: 18px;
     color: #E5E7EB;
+    width: 450px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 6px 24px 6px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
 }
 
 ul {
@@ -39,7 +62,7 @@ a {
 .headline {
     display: flex;
     flex-direction: column;
-    width: 920px;
+    width: 1080px;
     padding: 12px;
 }
 
@@ -56,8 +79,15 @@ a {
 
 .main {
     display: flex;
-    padding-top: 72px;
-    padding-bottom: 72px;
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+
+.main-info {
+    width: 450px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    padding-right: 36px;
 }
 
 .placeholder {
@@ -69,5 +99,19 @@ a {
     margin: 0;
     padding: 24px;
     background-color: #E5E7EB;
+}
+
+.information {
+    background-color: #F9FAF8;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
 }
 

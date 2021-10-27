@@ -22,7 +22,7 @@ h2 {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    padding: 32px 0 32px 0;
+    padding-top: 32px;
 }
 
 p {
@@ -62,7 +62,7 @@ a {
 .headline {
     display: flex;
     flex-direction: column;
-    width: 1080px;
+    width: 1350px;
     padding: 12px;
 }
 
@@ -70,11 +70,14 @@ a {
     font-size: 24px;
     font-weight: 900;
     color: #F9FAF8;
+    flex: 1 1 0%;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+
 }
 
 .main {
@@ -84,7 +87,7 @@ a {
 }
 
 .main-info {
-    width: 450px;
+    width: 100%;
     padding-top: 36px;
     padding-bottom: 36px;
     padding-right: 36px;
@@ -112,6 +115,96 @@ a {
 .cards {
     display: flex;
     justify-content: center;
-    gap: 45px;
+    gap: 75px;
+    padding: 50px;
+}
+
+.info-card {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-card p {
+    width: 200px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.info-placeholder {
+    border: solid 5px #3882F6;
+    border-radius: 15px;
+    height: 200px;
+    width: 200px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    background-color: #E5E7EB;
+    width: 100vw;
+    height: 400px;
+}
+
+.quote-text {
+    text-align: left;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    padding: 40px 250px;
+}
+
+.quote-author {
+    font-size: 36px;
+    width: 900px;
+    text-align: right;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAF8;
+    width: 100vw;
+    padding: 60px 0px;
+}
+ .call-to-action {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: #3882F6;
+     padding: 20px 60px;
+     border-radius: 15px;
+     width: 720px;
+ }
+
+ button.outline {
+     border: solid 3px #F9FAF8;
+     padding: 3px 15px;
+     height: 30px;
+ }
+
+ .call-title {
+    font-variant-ligatures: none;
+    color: #F9FAF8;
+    font-weight: bolder;
+ }
+
+ .call-text p {
+     margin: 0;
+     font-size: 16px;
+  
+ }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: #F9FAF8;
 }
 
